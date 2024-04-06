@@ -1,7 +1,7 @@
 {
-  "name": "accordion-slider-js",
-  "description": "Modular accordion slider built in Vanilla JavaScript.",
-  "version": "1.0.0",
+  "name": "accordion-slider-js-bundled",
+  "description": "Bundled version of modular accordion slider built in Vanilla JavaScript.",
+  "version": "1.0.1",
   "homepage": "https://bqworks.net/accordion-slider/",
   "author": {
     "name": "bqworks",
@@ -11,6 +11,10 @@
     {
       "name": "David Ghiurau",
       "email": "contact@bqworks.net"
+    },
+    {
+      "name": "Samuel Neff",
+      "email": "sam@serndesign.com"
     }
   ],
   "repository": {
@@ -58,7 +62,7 @@
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.0",
-    "canvas": "^2.10.2",
+    "canvas": "^2.11.2",
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.2",
     "css-minimizer-webpack-plugin": "^4.2.2",
