@@ -35,6 +35,7 @@
     "./css/touch-swipe": "./src/add-ons/touch-swipe/touch-swipe.css",
     "./css/video": "./src/add-ons/video/video.css"
   },
+  "types": "./src/types.d.ts",
   "keywords": [
     "slider",
     "accordion",
@@ -51,8 +52,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "cross-env mode=production webpack",
-    "start": "cross-env mode=development webpack",
+    "build": "mode=production webpack",
+    "start": "mode=development webpack",
     "serve": "serve -p 3000",
     "test": "jest --config jest.config.json",
     "test:pptr": "cross-env JEST_PUPPETEER_CONFIG=./jest-puppeteer.config.json jest --config jest.pptr.config.json",
