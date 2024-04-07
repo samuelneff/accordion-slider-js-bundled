@@ -15,7 +15,7 @@ import Video from '../src/add-ons/video/video.js';
 
 import AddOnsManager from '../src/add-ons/add-ons-manager.js';
 
-AddOnsManager.add([ 
+AddOnsManager.add([
     Autoplay,
     Breakpoints,
     Buttons,
@@ -31,3 +31,15 @@ AddOnsManager.add([
 ]);
 
 window.AccordionSlider = AccordionSlider;
+window.Autoplay = Autoplay;
+window.Breakpoints = Breakpoints;
+window.Buttons = Buttons;
+window.DeepLinking = DeepLinking;
+window.Keyboard = Keyboard;
+window.Layers = Layers;
+window.LazyLoading = LazyLoading;
+window.Retina = Retina;
+window.TouchSwipe = TouchSwipe;
+window.SwapBackground = SwapBackground;
+window.MouseWheel = MouseWheel;
+window.Video = Video;
